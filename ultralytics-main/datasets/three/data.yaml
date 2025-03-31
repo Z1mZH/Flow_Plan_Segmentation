@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['bathroom', 'bedroom', 'children_room', 'dining_room', 'garage', 'hallway', 'home_office', 'kitchen', 'living_room', 'playroom', 'terrace', 'utility_room', 'walk_in_closet']
+
+roboflow:
+  workspace: myspace-h5sfv
+  project: segmentation_two
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/myspace-h5sfv/segmentation_two/dataset/1
